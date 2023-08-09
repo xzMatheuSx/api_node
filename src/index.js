@@ -16,7 +16,7 @@ app.get('/', (request, response) => {
 });
 
 
-app.post('/calcula-consumo', (req, res) => {
+app.post('/calcular-consumo', (req, res) => {
     const { distanciaPercorrida, quantidadeCombustivel } = req.body;
 
     if (!distanciaPercorrida || !quantidadeCombustivel) {
