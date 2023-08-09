@@ -29,10 +29,10 @@ app.post('/calcular-consumo', (req, res) => {
 
 
 app.post('/calculadora', (req, res) => {
-    const { num1, num2, operator } = req.body;
+    const { num1, num2, operador } = req.body;
 
     let resultado;
-    switch (operator) {
+    switch (operador) {
         case '+':
             resultado = num1 + num2;
             break;
