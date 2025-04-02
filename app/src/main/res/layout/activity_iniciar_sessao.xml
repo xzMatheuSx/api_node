@@ -122,9 +122,15 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:backgroundTint="#189A46"
         android:text="Iniciar sessão"
         android:textColor="#F9FBFB"
+=======
+        android:text="Iniciar sessão"
+        android:textColor="#F9FBFB"
+        android:backgroundTint="#189A46"
+>>>>>>> 6967601270d2fa7ffa7ff52d2f64df503aedfbb0
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

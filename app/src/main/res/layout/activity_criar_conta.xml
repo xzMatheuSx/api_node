@@ -13,7 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#189A46"
+<<<<<<< HEAD
         android:text="criar conta"
+=======
+        android:text="Criar conta"
+>>>>>>> 6967601270d2fa7ffa7ff52d2f64df503aedfbb0
         android:textColor="#F9FBFB"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
